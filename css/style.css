@@ -88,7 +88,7 @@ margin: auto;
    .showcase{
         width: 100%;
        height: 400px;
-       background-image: url(./img/fullpotes.JPG);
+       background-image: url(../img/fullpotes.JPG);
        background-repeat: no-repeat;
        background-size: 100%;
        background-position: center center;
@@ -98,7 +98,7 @@ margin: auto;
        align-items: center;
        text-align: center;
        justify-content: flex-end;
-       margin-bottom: 20px;
+        margin-bottom: 10px;
         padding-bottom: 50px;
        
      
@@ -259,6 +259,9 @@ margin: auto;
        color: lightblue;
    }
    @media(max-width: 768px){
+       .showcase{
+           margin-bottom: ;
+       }
     .main-nav ul li a:hover{
         /* border-bottom: 2px solid grey; */
         color:black;
@@ -295,6 +298,7 @@ margin: auto;
         transform: translateX(-30px);
        }
 .info{
+    
     grid-template-columns: repeat(2,1fr);
 }
 #box-1,#box-2,#box-3,.policy,.address,.form{
